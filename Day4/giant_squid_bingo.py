@@ -27,7 +27,7 @@ def generate_board(board_data):
     
     return board
 
-# Generate bingo board using 2D list, containing [value, mark] intialize mark to 0 
+# Print a given board, including its content 
 def print_board(board_data):    
     for row in board_data:
         print(row)
